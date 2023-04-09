@@ -1,11 +1,5 @@
 digraph {
-	3
-	0
-	0 -> 12 [label=b]
-	0 -> 12 [label=a]
-	12
-	12 -> 3 [label=b]
-	12 -> 3 [label=a]
-	12 -> 3 [label=c]
-	12 -> 3 [label=d]
+	10 [label=start_terminal]
+	10 -> 10 [label=b]
+	10 -> 10 [label=a]
 }

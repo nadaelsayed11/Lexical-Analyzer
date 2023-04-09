@@ -1,16 +1,8 @@
 digraph {
-	0
+	0 [label=start_terminal]
 	0 -> 1 [label=b]
-	0 -> 2 [label=a]
-	1
-	1 -> 3 [label=b]
-	1 -> 3 [label=a]
-	1 -> 3 [label=c]
-	1 -> 3 [label=d]
-	2
-	2 -> 3 [label=b]
-	2 -> 3 [label=a]
-	2 -> 3 [label=c]
-	2 -> 3 [label=d]
-	3
+	0 -> 1 [label=a]
+	1 [label=terminal]
+	1 -> 1 [label=b]
+	1 -> 1 [label=a]
 }

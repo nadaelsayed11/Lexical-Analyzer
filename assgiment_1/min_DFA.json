@@ -1,1 +1,1 @@
-{"startingState": "0", "state3": {"isTerminatingState": true}, "state0": {"isTerminatingState": false, "inputCharacterB": "12", "inputCharacterA": "12"}, "state12": {"isTerminatingState": false, "inputCharacterB": "3", "inputCharacterA": "3", "inputCharacterC": "3", "inputCharacterD": "3"}}
+{"startingState": "10", "state10": {"isTerminatingState": true, "inputCharacterB": "10", "inputCharacterA": "10"}}
