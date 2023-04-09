@@ -1,0 +1,25 @@
+digraph {
+	00
+	00 -> 01 [label=a]
+	01
+	01 -> 21 [label=epsilon]
+	10
+	10 -> 11 [label=b]
+	11
+	11 -> 21 [label=epsilon]
+	20
+	20 -> 00 [label=epsilon]
+	20 -> 10 [label=epsilon]
+	21
+	21 -> 30 [label=epsilon]
+	30
+	30 -> 31 [label=a]
+	30 -> 31 [label=b]
+	30 -> 31 [label=c]
+	30 -> 31 [label=d]
+	31
+	31 -> 81 [label=epsilon]
+	80
+	80 -> 20 [label=epsilon]
+	81
+}
