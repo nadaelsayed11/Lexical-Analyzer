@@ -1,5 +1,10 @@
 digraph {
-	10 [label=start_terminal]
-	10 -> 10 [label=b]
-	10 -> 10 [label=a]
+	354126 [shape=doublecircle]
+	354126 -> 354126 [label=b]
+	354126 -> 354126 [label=c]
+	354126 -> 354126 [label=a]
+	0 [label=start]
+	0 -> 354126 [label=b]
+	0 -> 354126 [label=c]
+	0 -> 354126 [label=a]
 }
