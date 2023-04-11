@@ -1,1 +1,1 @@
-{"startingState": "0", "state354126": {"isTerminatingState": ["21", "20", "31", "50", "40", "51", "61", "71", "110", "100", "80", "90"], "inputCharacterB": "354126", "inputCharacterC": "354126", "inputCharacterA": "354126"}, "state0": {"isTerminatingState": false, "inputCharacterB": "354126", "inputCharacterC": "354126", "inputCharacterA": "354126"}}
+{"startingState": "023", "state1": {"isTerminatingState": true, "inputCharacterD": "1"}, "state023": {"isTerminatingState": false, "inputCharacterD": "1", "inputCharacterC": "023", "inputCharacterB": "023"}}
