@@ -1,33 +1,49 @@
 digraph {
 	00
-	00 -> 01 [label=b]
+	00 -> 01 [label=a]
 	01
-	01 -> 21 [label=epsilon]
+	01 -> 10 [label=epsilon]
 	10
-	10 -> 11 [label=c]
+	10 -> 11 [label=b]
 	11
 	11 -> 21 [label=epsilon]
 	20
 	20 -> 00 [label=epsilon]
-	20 -> 10 [label=epsilon]
 	21
-	21 -> 20 [label=epsilon]
-	21 -> 31 [label=epsilon]
+	21 -> 60 [label=epsilon]
 	30
-	30 -> 20 [label=epsilon]
-	30 -> 31 [label=epsilon]
+	30 -> 31 [label=b]
 	31
-	31 -> 50 [label=epsilon]
+	31 -> 51 [label=epsilon]
 	40
-	40 -> 41 [label=d]
+	40 -> 41 [label=c]
 	41
-	41 -> 40 [label=epsilon]
 	41 -> 51 [label=epsilon]
 	50
+	50 -> 30 [label=epsilon]
 	50 -> 40 [label=epsilon]
 	51
+	51 -> 50 [label=epsilon]
 	51 -> 61 [label=epsilon]
 	60
-	60 -> 30 [label=epsilon]
-	61 [shape=doublecircle]
+	60 -> 50 [label=epsilon]
+	60 -> 61 [label=epsilon]
+	61
+	61 -> 71 [label=epsilon]
+	70
+	70 -> 20 [label=epsilon]
+	71
+	71 -> 90 [label=epsilon]
+	80
+	80 -> 81 [label=d]
+	81
+	81 -> 80 [label=epsilon]
+	81 -> 91 [label=epsilon]
+	90
+	90 -> 80 [label=epsilon]
+	91
+	91 -> 101 [label=epsilon]
+	100
+	100 -> 70 [label=epsilon]
+	101 [shape=doublecircle]
 }

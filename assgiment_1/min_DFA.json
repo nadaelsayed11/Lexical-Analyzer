@@ -1,1 +1,1 @@
-{"startingState": "023", "state1": {"isTerminatingState": true, "inputCharacterD": "1"}, "state023": {"isTerminatingState": false, "inputCharacterD": "1", "inputCharacterC": "023", "inputCharacterB": "023"}}
+{"startingState": "0", "state5": {"isTerminatingState": true, "inputCharacterD": "5"}, "state0": {"isTerminatingState": false, "inputCharacterA": "1"}, "state243": {"isTerminatingState": false, "inputCharacterB": "243", "inputCharacterC": "243", "inputCharacterD": "5"}, "state1": {"isTerminatingState": false, "inputCharacterB": "243"}}

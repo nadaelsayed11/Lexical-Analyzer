@@ -1,8 +1,12 @@
 digraph {
-	1 [shape=doublecircle]
-	1 -> 1 [label=d]
-	023 [label=start]
-	023 -> 1 [label=d]
-	023 -> 023 [label=c]
-	023 -> 023 [label=b]
+	5 [shape=doublecircle]
+	5 -> 5 [label=d]
+	0 [label=start]
+	0 -> 1 [label=a]
+	243
+	243 -> 243 [label=b]
+	243 -> 243 [label=c]
+	243 -> 5 [label=d]
+	1
+	1 -> 243 [label=b]
 }
