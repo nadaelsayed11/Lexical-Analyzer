@@ -1,49 +1,94 @@
 digraph {
+	beautify=true
 	00
-	00 -> 01 [label=a]
+	00 -> 01 [label=A]
 	01
-	01 -> 10 [label=epsilon]
+	01 -> 70 [label=epsilon]
 	10
-	10 -> 11 [label=b]
+	10 -> 11 [label=B]
 	11
+	11 -> 10 [label=epsilon]
 	11 -> 21 [label=epsilon]
 	20
-	20 -> 00 [label=epsilon]
+	20 -> 10 [label=epsilon]
+	20 -> 21 [label=epsilon]
 	21
-	21 -> 60 [label=epsilon]
+	21 -> 61 [label=epsilon]
 	30
-	30 -> 31 [label=b]
+	30 -> 31 [label=D]
 	31
-	31 -> 51 [label=epsilon]
+	31 -> 40 [label=epsilon]
 	40
-	40 -> 41 [label=c]
+	40 -> 41 [label=A]
 	41
 	41 -> 51 [label=epsilon]
 	50
 	50 -> 30 [label=epsilon]
-	50 -> 40 [label=epsilon]
 	51
-	51 -> 50 [label=epsilon]
 	51 -> 61 [label=epsilon]
 	60
+	60 -> 20 [label=epsilon]
 	60 -> 50 [label=epsilon]
-	60 -> 61 [label=epsilon]
 	61
+	61 -> 60 [label=epsilon]
 	61 -> 71 [label=epsilon]
 	70
-	70 -> 20 [label=epsilon]
+	70 -> 60 [label=epsilon]
+	70 -> 71 [label=epsilon]
 	71
-	71 -> 90 [label=epsilon]
+	71 -> 81 [label=epsilon]
 	80
-	80 -> 81 [label=d]
+	80 -> 00 [label=epsilon]
 	81
-	81 -> 80 [label=epsilon]
-	81 -> 91 [label=epsilon]
+	81 -> 190 [label=epsilon]
 	90
-	90 -> 80 [label=epsilon]
+	90 -> 91 [label=C]
 	91
-	91 -> 101 [label=epsilon]
+	91 -> 100 [label=epsilon]
 	100
-	100 -> 70 [label=epsilon]
-	101 [shape=doublecircle]
+	100 -> 101 [label=G]
+	101
+	101 -> 111 [label=epsilon]
+	110
+	110 -> 90 [label=epsilon]
+	111
+	111 -> 191 [label=epsilon]
+	120
+	120 -> 121 [label=D]
+	121
+	121 -> 170 [label=epsilon]
+	130
+	130 -> 131 [label=D]
+	131
+	131 -> 151 [label=epsilon]
+	140
+	140 -> 141 [label=E]
+	141
+	141 -> 151 [label=epsilon]
+	150
+	150 -> 130 [label=epsilon]
+	150 -> 140 [label=epsilon]
+	151
+	151 -> 171 [label=epsilon]
+	160
+	160 -> 161 [label=F]
+	161
+	161 -> 171 [label=epsilon]
+	170
+	170 -> 150 [label=epsilon]
+	170 -> 160 [label=epsilon]
+	171
+	171 -> 181 [label=epsilon]
+	180
+	180 -> 120 [label=epsilon]
+	181
+	181 -> 191 [label=epsilon]
+	190
+	190 -> 110 [label=epsilon]
+	190 -> 180 [label=epsilon]
+	191
+	191 -> 201 [label=epsilon]
+	200
+	200 -> 80 [label=epsilon]
+	201 [shape=doublecircle]
 }

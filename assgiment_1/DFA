@@ -1,20 +1,28 @@
 digraph {
+	beautify=true
 	0 [label=start]
-	0 -> 1 [label=a]
+	0 -> 1 [label=A]
 	1
-	1 -> 2 [label=b]
+	1 -> 2 [label=B]
+	1 -> 3 [label=D]
+	1 -> 4 [label=C]
 	2
-	2 -> 3 [label=b]
-	2 -> 4 [label=c]
-	2 -> 5 [label=d]
+	2 -> 2 [label=B]
+	2 -> 3 [label=D]
+	2 -> 4 [label=C]
 	3
-	3 -> 3 [label=b]
-	3 -> 4 [label=c]
-	3 -> 5 [label=d]
+	3 -> 5 [label=E]
+	3 -> 6 [label=F]
+	3 -> 7 [label=D]
+	3 -> 8 [label=A]
 	4
-	4 -> 3 [label=b]
-	4 -> 4 [label=c]
-	4 -> 5 [label=d]
+	4 -> 9 [label=G]
 	5 [shape=doublecircle]
-	5 -> 5 [label=d]
+	6 [shape=doublecircle]
+	7 [shape=doublecircle]
+	8
+	8 -> 2 [label=B]
+	8 -> 3 [label=D]
+	8 -> 4 [label=C]
+	9 [shape=doublecircle]
 }
